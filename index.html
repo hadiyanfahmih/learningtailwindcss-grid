@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Grid & Flex Responsive | Tailwindcss</title>
+  </head>
+  <body class="font-poppins bg-slate-300 grid place-items-center min-h-screen">
+    <!-- GRID -->
+    <section
+      class="p-4 grid gap-4 max-w-5xl xs:grid-cols-2 md:grid-cols-4 bg-gray-200 shadow-xl rounded-xl"
+    >
+      <div
+        class="xs:col-span-2 md:col-span-3 xs:grid xs:grid-cols-2 md:grid-cols-3 xs:gap-4"
+      >
+        <h1
+          class="text-2xl md:text-4xl font-semibold md:col-span-2 self-center"
+        >
+          Grid Responsive Tailwindcss
+        </h1>
+      </div>
+
+      <div
+        class="bg-indigo-600 self-center md:text-2xl xs:col-start-2 xs:row-start-2 md:col-start-1 md:col-span-2"
+      >
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus,
+          cumque?
+        </p>
+      </div>
+
+      <div
+        class="relative rounded-xl h-16 bg-red-300 grid place-items-center xs:h-auto xs:aspect-square md:group md:hover:scale-90 overflow-hidden transition duration-500"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?code"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">1</p>
+      </div>
+      <div
+        class="h-16 bg-sky-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?cat"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">2</p>
+      </div>
+      <div
+        class="h-16 bg-orange-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?girl"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">3</p>
+      </div>
+      <div
+        class="h-16 bg-lime-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500 md:col-start-2"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?landscape"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">4</p>
+      </div>
+      <div
+        class="h-16 bg-yellow-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?laugh"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">5</p>
+      </div>
+      <div
+        class="h-16 bg-green-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?lion"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">6</p>
+      </div>
+      <div
+        class="h-16 bg-teal-300 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500 md:col-start-1"
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?wine"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">7</p>
+      </div>
+      <div
+        class="h-16 bg-fuchsia-600 grid place-items-center xs:h-auto xs:aspect-square relative rounded-xl md:group md:hover:scale-90 overflow-hidden transition duration-500"
+        grid
+        place-items-center
+      >
+        <img
+          src="https://source.unsplash.com/1000x1000?fire"
+          alt=""
+          class="aspect-square md:group-hover:scale-125 transition duration-1000"
+        />
+        <p class="absolute text-4xl text-white">8</p>
+      </div>
+
+      <div
+        class="bg-indigo-600 self-center text-center md:col-span-2 md:text-2xl"
+      >
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+          quasi.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
